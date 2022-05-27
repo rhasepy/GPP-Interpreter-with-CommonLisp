@@ -1,0 +1,39 @@
+(deffun sum (x y)
+	(+ x y)
+)
+
+(deffun recursiveReversePrint (x)
+	(disp x)
+	(if (less 0 x)
+		(recursiveReversePrint (- x 1))
+		(nil))
+)
+
+(deffun isEqual (x y)
+	(equal x y))
+
+(recursiveReversePrint 5)
+
+(disp (+ 100 (* 3 (+ 100 (- 50 20))) (* 2 (* 2 (+ 50 20 (- 70 40))))))
+
+(set x 35)
+(set y 40)
+(disp (sum x y))
+
+(set list1 (list 1 2 3 ))
+(set list2 (list 4 5 6))
+(disp list1)
+(disp list2)
+
+(set biglist (append list1 list2))
+(disp biglist)
+
+(disp (isEqual 10 10))
+(disp (isEqual 10 20))
+
+(disp (not false))
+(disp (not true))
+
+(disp (append (list 1 2 (list 4 5)) (list 6 7 8)))
+
+(sum 10)
