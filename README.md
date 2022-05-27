@@ -8,7 +8,7 @@ G++ is the Gebze Technical University programming language with:
   </pre>
 </p>
   
-# Starting G++
+# Starting G++ Lexer or Parser
 <p>
    <pre>
      - g++ (REPL mode)
