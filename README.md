@@ -8,7 +8,11 @@ G++ is the Gebze Technical University programming language with:
   </pre>
 </p>
   
-# Starting G++ withouth an input file
-   - g++ (REPL mode)
-   - g++ file.gpp
-   - g++ file.g++
+# Starting G++
+<p>
+   <pre>
+     - g++ (REPL mode)
+     - g++ file.gpp
+     - g++ file.g++
+     </pre>
+</p>
